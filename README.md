@@ -7,8 +7,8 @@ The dataset comprises of 48,000 grayscale images in the form of 28 x 28 pixels. 
 
 ## The model
 
-The input size is 784(28 x 28) the model summary is as shown below.
+The input size is 784(28 x 28) the model summary is as shown below. 
  
-<img src="">
+<img src="/MODEL-LOGS/model_summary.JPG">
 
 The accuracy logs on various validation splits can be seen in MODEL-LOGS folder.  
