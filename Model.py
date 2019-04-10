@@ -38,7 +38,7 @@ for i in range(27999):
     k[i] = np.argmax(predictions[i])
 
 
-# store the predictions for numpy array into dataframe      
+# store the predictions from numpy array into dataframe      
 f = pd.DataFrame  
 f = pd.read_csv('sample_submission.csv',sep = ',')
 f['Label']  = k 
